@@ -720,9 +720,13 @@ button[type=submit] {
 }
 .navbar .container .upper-side .logo {
   margin-left: 0;
+  color: #d88040;
+  font-family: inherit;
+  font-size: 34px;
 }
 .navbar .container .upper-side .logo img {
-  height: 48px;
+  height: 55px;
+  margin-bottom: 14px;
 }
 .navbar .container .upper-side .phone-email {
   margin-right: 0;
@@ -758,7 +762,7 @@ button[type=submit] {
 }
 .navbar .container .upper-side .language {
   margin-right: 40px;
-  margin-left: 60px;
+  margin-left: 0px;
   padding: 10px 0;
   padding-right: 30px;
   border-right: 1px solid rgba(255, 255, 255, 0.15);
@@ -1589,7 +1593,7 @@ button[type=submit] {
 }
 .property-plans table tr td:first-child {
   color: #9f8054;
-  width: 120px;
+  width: 260px;
   font-weight: 600;
 }
 .property-plans .tab-nav {
@@ -2013,7 +2017,7 @@ button[type=submit] {
   font-family: "Playfair Display", serif;
   margin-bottom: 15px;
 }
-.certificates h4 span {
+.certificates h4 span,.footer h4 span {
   color: #9f8054;
 }
 .certificates small {
